@@ -1,8 +1,26 @@
 aid: diem
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/diem.png
 name: Diem
-description: Diem is a company surfaced as a portfolio company of a16z, ribbit-capital, techstars and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Diem is a consumer social search engine, delivered as an iOS and Android app,
+  that surfaces community-driven answers to questions people are often reluctant to ask
+  elsewhere - positioning itself as "a search engine that feels like you're asking questions
+  in a girl's bathroom at 1am." The Diem experience centers on a women-focused community,
+  a Gems rewards program redeemable for products and features, a weekly newsletter, a merch
+  shop, and companion products such as the Twin Flame astrology-compatibility app. Diem is
+  backed by a16z, Ribbit Capital, and Techstars. It is a consumer application with no public
+  API, developer portal, SDKs, or documentation surface at this time; this profile captures
+  its public web identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/diem/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Social
+- Search
+- Community
+- Consumer
+- Mobile App
+- Women
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/diem-domain-security.yml
 - type: Website
   url: https://askdiem.com/
+- type: Blog
+  url: https://diemnewsletter.substack.com/
+- type: Support
+  url: https://www.askdiem.com/contact-us
+- type: PrivacyPolicy
+  url: https://www.askdiem.com/privacy-policy
+- type: TermsOfService
+  url: https://www.askdiem.com/terms-of-service
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

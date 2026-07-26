@@ -1,0 +1,21 @@
+{
+  "repo": "diem",
+  "feeds": [
+    {
+      "source": "https://www.askdiem.com/blog-feed.xml",
+      "feed_url": "https://www.askdiem.com/blog-feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://askdiem.com/",
+      "feed_url": "https://www.askdiem.com/blog-feed.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 20,
+  "fetched": "2026-07-25T15:00:33Z"
+}
